@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div>
+    <div>
+        <div>Укажите необходимые работы:</div>
+        <div>
+            <div>
+                <input type="radio" id="workChoice1" name="work" value="Асфальтирование">
+                <label for="workChoice1">Асфальтирование</label>
+            </div>
+            <div>
+                <input type="radio" id="workChoice2" name="work" value="Ямочный ремонт">
+                <label for="workChoice2">Ямочный ремонт</label>
+            </div>
+            <div>
+                <input type="radio" id="workChoice3" name="work" value="Укладка асфальтовой крошки">
+                <label for="workChoice3">Укладка асфальтовой крошки</label>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div>Территория предназначена для:</div>
+        <div>
+            <div>
+                <input type="radio" id="destinationChoice1" name="destination" value="Складских площадей, парковок">
+                <label for="destinationChoice1">Складских площадей, парковок</label>
+            </div>
+            <div>
+                <input type="radio" id="destinationChoice2" name="destination" value="Тротуаров, пешеходных дорожек">
+                <label for="destinationChoice2">Тротуаров, пешеходных дорожек</label>
+            </div>
+            <div>
+                <input type="radio" id="destinationChoice3" name="destination" value="Проселочных дорог">
+                <label for="destinationChoice3">Проселочных дорог</label>
+            </div>
+            <div>
+                <input type="radio" id="destinationChoice4" name="destination" value="Проселочных дорог">
+                <label for="destinationChoice4">Автомобильных дорог</label>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div>Устройство покрытия производится:</div>
+        <div>
+            <div>
+                <input type="radio" id="baseChoice1"
+                       name="base" value="Поверх старого асфальта или готового основания">
+                <label for="baseChoice1">Поверх старого асфальта или готового основания</label>
+            </div>
+            <div>
+                <input type="radio" id="baseChoice2"
+                       name="base" value="С заменой верхнего слоя асфальта">
+                <label for="baseChoice2">С заменой верхнего слоя асфальта</label>
+            </div>
+            <div>
+                <input type="radio" id="baseChoice3"
+                       name="base" value="С выборкой зем. корыта и подготовкой основания">
+                <label for="baseChoice3">С выборкой зем. корыта и подготовкой основания</label>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div>Площадь покрытия в м2:</div>
+    </div>
+    <div>
+        <div>У вас уже есть рассчитанная смета или проект?</div>
+        <div>
+            <div>
+                <input type="radio" id="estimateChoice1" name="estimate" value="Да">
+                <label for="estimateChoice1">Да</label>
+            </div>
+            <div>
+                <input type="radio" id="estimateChoice2" name="estimate" value="Нет">
+                <label for="estimateChoice2">Нет</label>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div>Вы являетесь юридическим или физическим лицом?</div>
+        <div>
+            <div>
+                <input type="radio" id="entityChoice1"
+                       name="entity" value="Юридическим лицом">
+                <label for="entityChoice1">Юридическим лицом</label>
+            </div>
+            <div>
+                <input type="radio" id="entityChoice2"
+                       name="entity" value="Физическим лицом">
+                <label for="entityChoice2">Физическим лицом</label>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div>Оставьте свои контактные данные и в течении 10 секунд Вы получите коммерческое предложение.</div>
+        <div>Номер телефона*:</div>
+        <div><input type="text" name="name"></div>
+        <div>E-mail:</div>
+        <div><input type="text" name="name"></div>
+    </div>
+</div>
+
+<button id="sendButton">Send</button>
+
+<script type="module" src="index.js"></script>
+
+</body>
+</html>
